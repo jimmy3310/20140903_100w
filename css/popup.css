@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------LoGin---------------------------------------------*/
+.loginmain{ width:600px; background:#f6f6f6; margin:0 auto; padding:10px; font:100 22px/1 "微軟正黑體"; color:#333333; -webkit-border-radius: 20px;-moz-border-radius:20px;border-radius:20px;}
+.loginmain h1{ color:#666666; font-size:41px; font-weight:300;}
+.loginmain li{
+	list-style:none;
+	margin:0 0 20px 0;
+	vertical-align: middle;
+}
+.t01{letter-spacing: 12px}
+.inp{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px; border:#CCCCCC 2px solid; font-size:18px; padding:5px; color:#666666; width:60%;}
+.size_1{ width: 150px}
+.logimg{display:inline; margin:0 0 0 10px; height:33px}
+.logimg img{ margin:-10px 0 -10px 0}
+/*--------------LoGin---------------------------------------------*/
+.btnbox{ margin:0 auto; width:60%; clear:both;}
+.btnbox2{ margin:0 auto; width:395px; clear:both;}
+.btnbox2 img{ margin:10px auto;}
+.css_btn_del{ text-decoration:none; float:left; margin:5px 0 0 0px; padding:10px 10px; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px; background-color:#333333; font:500 18px/1 "微軟正黑體"; color:#FFFFFF }
+.css_btn_ent{  text-decoration:none; letter-spacing: 3px; margin:10px; padding:10px 20px; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px; background-color: #990000; font:100 30px/1 "微軟正黑體"; color:#FFFFFF; float:left }
+
+
+/*----Privacy----------------------------------------------------*/
+.privacymain{ width:900px; background:#f6f6f6; margin:0 auto; padding:10px; font:100 12px/1 "微軟正黑體"; color:#333333; -webkit-border-radius: 20px;-moz-border-radius:20px;border-radius:20px;}
+.privacybox{ width:90%; margin:0 auto; line-height:16px;}
+.privacybox li{ margin:0 30px; font:100 12px/2 "新細明體"; color:#666666}
+.privacybox a { color:#333333}
+.liststy_01 { color:#990000; font:500 18px/1 "微軟正黑體";}
+.check_1{ text-align:center;}
+.ckbig{ width:30px; height:30px; margin:0px 0 -10px 0}
+.privacymain h1 { margin:30px 50px; color:#969696; font-size:40px; font-weight:100}
+
+/*------------------FB----------------------*/
+.fbmain{ width:800px; margin:0 auto;  background:#f6f6f6; padding:10px 30px 50px 30px; font-family:"微軟正黑體"; -webkit-border-radius: 20px;-moz-border-radius:20px;border-radius:20px;}
+.fbmain h1{ font-size:30px; color:#333333; margin:50px 0 20px 0;clear:both; font-weight:100}
+.fbmain h2{ font-size:15px; color:#999999 ;margin:-20px 0 20px 0 ;clear:both;font-weight:100}
+.fbbtnbox{ text-align:left; clear:both;}
+.fbbox{ width:95%; text-align:center; margin:0 auto; padding:5px; border:#CCCCCC 1px solid}
+
+
+/*----------------member---------------*/
+
+.memtb{ font:300 18px/1.2 "微軟正黑體"; color:#333333; }
+.inp2{width:90%}
+.inp3{width:5%}
+.inp5{width:40%}
+.memrad{ width:20px; height:20px; padding:10px; }
+.ckbig2{width:20px; height:20px;}
+.pass_1 { color:#999999}
+.memtb span{ font:100 12px/1 "新細明體"; color:#999999;}
+.memsel{ font:100 16px/1.2 "微軟正黑體"; color: #999999 ; padding:5px; background: #FFFFFF; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
+h4 { font:500 20px/1 "微軟正黑體"; color:#000000; margin:0;}
+.meme_sp{  font-size:24px; margin:30px 0 0 0; color:#FF3333;}
+
+/*---------------register----------------*/
+.regsp{ font:100 12px/1 "新細明體"; color:#FF0000;}
+.size_2{ width:100px;}
+
+
+/*---------------mobile-----------------------*/
+.c1 a{ color:#003399;}
+.c2 a{ color:#CC0000}
+.mob_btnbox { margin:0 auto; width:30%}
+
+.btnbox3{margin:0 auto; width:50%; clear:both;}
+
+/*---------mail-----------*/
+.mailps{ font:100 15px/1.1 "微軟正黑體"; color:#666666}
+
+/*---------OK---------------------*/
+.okmain{ width:850px; background:#f6f6f6; margin:0 auto; padding:10px; font:100 22px/1 "微軟正黑體"; text-align:center; color:#333333; -webkit-border-radius: 20px;-moz-border-radius:20px;border-radius:20px;}
+.btnbox4{margin:30px auto; width:40%; clear:both;}
+.okbox{ background-color:#ffffe3; width:100%; color:#310000; font:100 32px/1 "微軟正黑體"; padding:10px 0 }
+.okbox table{ font-size:18px}
+.okmain h1{ font:300 55px/1 "微軟正黑體"; margin:0}
+.okmain h2{ font:900 55px/1 "微軟正黑體"; margin:0 0 20px 0;}
+.css_btn_fb{ text-decoration:none; letter-spacing: 3px; margin:10px auto; padding:10px 20px; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px; background-color: #990000; font:800 22px/1 "微軟正黑體"; color: #CCCCCC; border-bottom:#660000 10px solid; }
+.css_btn_fb:hover{position:relative; top:10px;  border:0}
+.css_btn_fb:active{ position:relative; top:12px; border-top:#660000 2px solid ; padding:8px 20px;}
+.css_btn{ float:left; margin:1px 0 0 20px; }
+.css_btn2{ color:#FFFFFF; background-color:#333333; font-size:30px; font-weight:100 }
+.css_btn_class {
+	font:500 18px/1.1 "微軟正黑體"; 
+	-moz-border-radius:26px;
+	-webkit-border-radius:26px;
+	border-radius:26px;
+	border:0px solid #337fed;
+	padding:20px 30px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #395cb4 5%, #040c51 100% );
+	background:-ms-linear-gradient( top, #395cb4 5%, #040c51 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#395cb4', endColorstr='#040c51');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #395cb4), color-stop(100%, #040c51) );
+	background-color:#395cb4;
+	color:#ffffff;
+	display:inline-block;
+	text-shadow:1px 1px 0px #1570cd;
+ 	-webkit-box-shadow:inset 1px -7px 0px 0px #e0e0e0;
+ 	-moz-box-shadow:inset 1px -7px 0px 0px #e0e0e0;
+ 	box-shadow:inset 1px -7px 0px 0px #e0e0e0;
+}.css_btn_class:hover {
+	background:-moz-linear-gradient( center top, #040c51 5%, #395cb4 100% );
+	background:-ms-linear-gradient( top, #040c51 5%, #395cb4 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#040c51', endColorstr='#395cb4');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #040c51), color-stop(100%, #395cb4) );
+	background-color:#040c51;
+}.css_btn_class:active {
+	position:relative;
+	top:1px;
+}
+
+

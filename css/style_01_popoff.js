@@ -1,0 +1,105 @@
+@charset "utf-8";
+img{ border:0; margin:0; padding:0}
+body{
+	margin:0;
+	padding:0;
+	background-image: url(../images/BG_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll;
+}
+.bg {
+	margin:0;
+	padding:0;
+	width:100%;
+	
+}
+.1h{ border-bottom:1px dashed #333333; width:98%; margin:0 auto; height:1px; background:#333333; clear:both;}
+#point_l div{ float: right;}
+#point_2 div{ float: right;}
+.title_01{ margin:18px 0 0 40px; }
+.photo{ width:113px; height:135px; margin:3px 3px 5px 3px; overflow:hidden; float:left;}
+.photo span{ width:100px; float:left; text-align:center; font:100 12px/1 "微軟正黑體"}
+
+.main{ margin:10px auto 20px auto; padding:10px; background-color: #dddddd; width:1180px; overflow:auto;}
+.main2{ margin:30px auto 20px auto; padding:20px; background-color: #FFFFFF; width:780px; overflow:auto; font:200 18px/1.2 "微軟正黑體";-webkit-border-radius: 25px;
+-moz-border-radius: 25px;border-radius: 25px; border:#333333 2px solid }
+
+.box_1{-webkit-border-radius:8px;-moz-border-radius: 8px;border-radius: 8px;}
+.main3{ clear:both; overflow: inherit; width:900px; margin:20px auto; font:500 18px/1 "微軟正黑體"; color:#666666;}
+.mailname{background:#CCCCCC; width:350; text-align:left; height:28px; float:left; margin:60px 10px 20px 10px; padding:10px 10px 10px 10px; clear:both; float:left; }
+.mailname2{background:#CCCCCC; width:350; text-align:left; height:28px; float:left; margin:0 0 0 20px;  padding:10px 10px 10px 10px; clear:both; float:left; }
+.namebox{margin:20px 10px 10px 10px; padding:10px 0 0 0; clear:both; }
+.mailads{background:#CCCCCC; width:430px; text-align:left; height:28px;  margin:0 0 0 20px; float:left;  padding:10px; float:left; }
+.from{ border:0; width:150px; height:30px; margin:-3px 0 0 0;}
+.from2{ border:0; width:350px; height:30px; margin:-3px 0 0 0;}
+.your{ font:500 38px/1 "微軟正黑體"; color: #666666; float:left; margin:30px 0 0 0}
+
+.main2 span{ border-bottom:1px solid #333333; font:500 20px/1 Arial; margin:0 0 0 5px;}
+.title_02{ margin:10px auto 0 auto; width:60%; text-align:center;}
+.title_03{ margin:10px auto ; height:130px;  width:80%; text-align:center; clear:both; }
+.title_03 span{ font:500 52px/1; color:#CC0000}
+.title_04 { margin:10px auto ; height:50px;  width:80%; text-align:center; clear:both; }
+.title_04 span{color: #CC0000;}
+.recommend{ font:700 70px/1 Arial; color: #000000; border-bottom:#000000 1px solid; float:left;margin:0 0 10px 0; padding:0 10px;}
+.mg2{ margin:30px 0 0 80px;}
+/* CSS Document */
+.poinylist {  -moz-border-radius: 6px; -webkit-border-radius: 6px;  border-radius: 6px; background-color:#e3e3e3; margin:30px auto 3px auto; font:500 18px/1 "微軟正黑體"; color:#333333; text-align:center; padding:5px;}
+.poinylist td{ padding:5px 10px;}
+.poinylist2 {  -moz-border-radius: 6px; -webkit-border-radius: 6px;  border-radius: 6px; background-color:#f3f3f3; margin:2px auto 3px auto; font:100 15px/1 "微軟正黑體"; color:#333333; text-align:center;   }
+.poinylist2 td{border-right:#FFFFFF solid 2px; padding:5px 10px;}
+.listbox1 { overflow:hidden; width:220px;}
+.listbox2 { overflow:hidden; width:190px; font-size:12px; color:#666666; line-height:16px;}
+.listbox3 { color:#CC0000}
+.clik_fb{  margin:500x 0 0 0px;  position:relative; top:45px; left:280px; width:300px;  }
+.css_btn_del{ text-decoration:none; float:left; margin:5px 0 0 0px; padding:10px 10px; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px; background-color:#333333; font:500 18px/1 "微軟正黑體"; color:#FFFFFF }
+.css_btn_ent{  text-decoration:none; letter-spacing: 3px; margin:40px auto; padding:10px 20px; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px; background-color: #990000; font:500 18px/1 "微軟正黑體"; color:#FFFFFF }
+.infobox{ text-align:left; width:80%; margin:-422px auto 0 auto; color:#666666; z-index:1 }
+.infobox li{ margin:10px 0 2px 0;}
+.infobox2{ text-align:left; width:80%; margin:0 auto; color:#666666; }
+.infobox2 li{margin:5px 30px; font:100 12px/1 '新細明體'; list-style:decimal; color:#666666}
+.infobox ol{ margin:10px; color: #666666; font:100 18px/1.1 "微軟正黑體";}
+.info_4{ margin:5px 0px; font:100 18px/1.1 "微軟正黑體"; color: #333333 }
+.info_4 li{ list-style:none;}
+.info_3{ margin:10px 30px; font:300 24px/1.1 "微軟正黑體"; color:#000000 }
+.info_1{ margin:0 30px; font-size:12px; font-family:"新細明體"; color:#999999;}
+.info_2{ font:800 18px/1 "微軟正黑體"; color:#990000}
+.info_mag{padding:0 0 200px 0 }
+.infoimg{  position:relative; top:770px; left:0;   overflow:hidden; z-index:99 }
+
+.css_btn{ float:left; margin:1px 0 0 20px; }
+.css_btn2{ margin:30px auto; width:20%;}
+.css_btn_class {
+	font:500 18px/1.1 "微軟正黑體"; 
+	-moz-border-radius:26px;
+	-webkit-border-radius:26px;
+	border-radius:26px;
+	border:0px solid #337fed;
+	padding:20px 30px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #395cb4 5%, #040c51 100% );
+	background:-ms-linear-gradient( top, #395cb4 5%, #040c51 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#395cb4', endColorstr='#040c51');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #395cb4), color-stop(100%, #040c51) );
+	background-color:#395cb4;
+	color:#ffffff;
+	display:inline-block;
+	text-shadow:1px 1px 0px #1570cd;
+ 	-webkit-box-shadow:inset 1px -7px 0px 0px #e0e0e0;
+ 	-moz-box-shadow:inset 1px -7px 0px 0px #e0e0e0;
+ 	box-shadow:inset 1px -7px 0px 0px #e0e0e0;
+}.css_btn_class:hover {
+	background:-moz-linear-gradient( center top, #040c51 5%, #395cb4 100% );
+	background:-ms-linear-gradient( top, #040c51 5%, #395cb4 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#040c51', endColorstr='#395cb4');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #040c51), color-stop(100%, #395cb4) );
+	background-color:#040c51;
+}.css_btn_class:active {
+	position:relative;
+	top:1px;
+}
+.floor{ padding:20px; text-align:center; width:100%; bottom:0; background:#970000; font:100 12px/1 Arial, "新細明體"; color:#FFFFFF; }
+.floor a { text-decoration:none; color: #FFFF33}
+
+
+/* This css button was generated by css-button-generator.com */

@@ -1,0 +1,113 @@
+<span class="button b-close"><span>x</span></span>
+<form name="qloginForm" method="post" action="#" id="qloginForm">
+<div class="loginmain">
+<h1>快速註冊會員補登資料</h1>
+  <ol>
+  <li>行動電話號碼：
+    <input type="text" name="mobileNumber" id="mobileNumber"  class="inp inp5" maxlength="10" /></li>
+  <li>
+    得 易 卡 卡 號：
+      <input type="text" name="cardNumber" id="cardNumber"  class="inp inp5" style="text-transform:uppercase ;" maxlength="16"  />
+  </li>
+  <li><span class="t01">辨 識 </span>碼 ：
+	  <input type="text" name="qloginFormCaptcha" id="qloginFormCaptcha"  class="inp size_2" maxlength="5"  /><div class="logimg"><img src="" width="121" height="33" id="captcha3" /><a href="#" id="reload3" ><img src="images/login_popup_04.jpg" width="109" height="33" border="0" /></a></div>
+	</li>
+    <div class="btnbox"><div><a href="#" class="css_btn_ent" id="qloginMainClick" >確認送出</a></div></div>
+</ol>
+  <div  class="btnbox2" ></div>
+
+<div style="height:1px; margin-top:20px;clear: both;overflow:hidden;"></div>
+</div>
+</form>
+
+<script>
+
+	$(function() { 
+				$('#reload3').click(function(){	
+				
+					$.ajax({
+                    type: "GET",
+                    url: "captcha.php",
+                    data: "id=",
+                    success: function(data) {
+                        
+                              $('#captcha3').attr('src', data);
+
+                       
+                    }
+					});
+					return false;
+				
+					
+					
+					
+				});
+			});
+			
+			
+	;(function($) {
+
+ 
+        $(function() {
+
+
+            $('#qloginMainClick').bind('click', function(e) {
+			
+	
+					e.preventDefault();
+					
+				
+					
+					
+					
+					
+					$.ajax({
+                    type: "GET",
+                    url: "checkMobileCaptcha.php",
+                    data: "cardNumber=" + $('#cardNumber').val()+"&mobileNumber=" + $('#mobileNumber').val()+"&qloginFormCaptcha=" + $('#qloginFormCaptcha').val(),
+                    success: function(data) {         
+                       
+						if (data != 1) {
+						
+							alert(data);
+							return false;
+						}  else { 
+						
+							//e.preventDefault();
+
+							$('input[name="cellPhone"]').val($('#mobileNumber').val())
+							
+							$('#privacyS').bPopup(  {
+								easing: 'easeOutBack',
+								speed: 450,
+								transition: 'slideDown'
+							} );
+					
+
+					
+
+
+							var bPopup02 = $('#qloginMain').bPopup();
+								bPopup02.close();
+								
+							
+						
+						}
+					
+                    }
+					});
+					
+					
+				
+			
+			
+
+            });
+
+        });
+
+    })(jQuery);
+
+
+	
+</script>			
