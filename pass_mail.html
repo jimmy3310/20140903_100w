@@ -1,0 +1,76 @@
+<?php 
+
+session_start();
+?>
+<div class="loginmain">
+<h1>忘記密碼</h1>
+  <ol>
+    <div style="display:"></div>
+    <table width="90%" border="0" cellspacing="0" cellpadding="5">
+      <tr>
+        <td>
+          <img src="images/pass_mail_06.png" width="57" height="56" />              </td>
+        <td align="left">
+          密碼函已寄送至您所設定的E-mail信箱！
+          <span class="replaEmail"></span></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="mailps">若您一直未收到我們所寄發密碼函，可能遭您所使用的E-mail信箱服務系統誤判為垃圾信，建議您修改您所使用的E-mail信箱。如欲修改E-mail信箱，或有其他相關問題，請電洽客服中心(02)-7703-3955(服務時間：週一~週日AM9:00~PM6:00)，謝謝。</td>
+      </tr>
+    </table>
+    <li></li>
+  <div class="btnbox3">
+    <div><a href="#" class="css_btn_ent" id="pass_mail_click2">確　定</a></div>
+  </div>
+  </ol>
+  <div  class="btnbox2" ></div>
+
+<div style="height:1px; margin-top:20px;clear: both;overflow:hidden;"></div>
+</div>
+</body>
+
+<script>
+
+			
+	;(function($) {
+
+ 
+        $(function() {
+
+
+            $('#pass_mail_click2').bind('click', function(e) {
+			
+	
+					e.preventDefault();
+					
+					var bPopup02 = $('#pass_mail').bPopup();
+					bPopup02.close();
+
+					var bPopup02 = $('#re_pass').bPopup();
+					bPopup02.close();
+					
+					
+					$.blockUI({baseZ: 	10000,message: '系統將重新導頁' }); 
+ 
+					setTimeout(function() { 
+						$.unblockUI({ 
+							onUnblock: function(){ window.location.href = "http://172.16.50.54/mp/"; } 
+							//onUnblock: function(){ location.reload(); } 
+							
+						}); 
+					}, 2000); 
+					
+					//$.blockUI({ 
+							//message: '系統將重新導頁', 
+							//timeout: 5000 ,
+							//baseZ: 	10000,
+					//}); 
+				
+
+            });
+
+        });
+
+    })(jQuery);
+
+</script>
